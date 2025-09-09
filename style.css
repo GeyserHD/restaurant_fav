@@ -29,3 +29,10 @@ header p {
   color: #555;
   font-size: 1.1rem;
 }
+
+/* Contenedor restaurantes */
+.restaurantes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
